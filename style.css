@@ -1,0 +1,105 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+h4 {
+  color: #1dcb69;
+}
+
+hr {
+  display: inline-block;
+  border: dashed black 4px;
+  width: 1%;
+  border-bottom: none;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+p {
+  color: gray;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  /* margin-top: 20px; */
+  border-radius: 50% !important;
+}
+
+a {
+  color: gray;
+}
+
+a:hover {
+  color: #f5f5f5;
+}
+
+.team-intro{
+  margin-top: 10%;
+}
+
+.hr2 {
+  border: solid black 4px;
+  width: 2%;
+  border-bottom: none;
+}
+
+.card-deck {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  margin: auto;
+}
+
+.card:hover {
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+    0 24px 46px var(--box-shadow-color);
+  background: rgb(31, 202, 106);
+  background: linear-gradient(188deg, rgba(31, 202, 106, 1) 0%, rgba(32, 194, 183, 1) 100%);
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  align-self: center;
+  margin:15px;
+}
+
+.logo {
+  display: flex;
+}
+
+.facebook-logo, .google-logo, .twitter-logo {
+  width: 30%;
+}
+
+.svg-inline--fa {
+  border-radius: 50%;
+}
+
+.svg-inline--fa.fa-w-16 {
+  width: 2.5em;
+  height: 2.5em;
+}
+
+@media screen and (max-width:990px) {
+  .card-deck {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .card {
+    margin: auto !important;
+  }
+}
