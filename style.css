@@ -62,7 +62,7 @@ a:hover {
   box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
     0 24px 46px var(--box-shadow-color);
   background: rgb(31, 202, 106);
-  background: linear-gradient(188deg, rgba(31, 202, 106, 1) 0%, rgba(32, 194, 183, 1) 100%);
+  background: linear-gradient(200deg, rgba(31, 202, 106, 1) 0%, rgba(32, 194, 183, 1) 100%);
 }
 
 .image-wrapper {
